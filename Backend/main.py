@@ -20,13 +20,13 @@ app.mount("/static", StaticFiles(directory=static_dir), name="static")
 
 # Define route handlers
 @app.get("/", response_class=HTMLResponse)
-async def read_homepage(request: Request):
+async def home_page(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
 @app.get("/contact", response_class=HTMLResponse)
-async def read_contact(request: Request):
+async def contact_page(request: Request):
     return templates.TemplateResponse("contact.html", {"request": request})
 
 @app.get("/about", response_class=HTMLResponse)
-async def read_about(request: Request):
+async def about_page(request: Request):
     return templates.TemplateResponse("about.html", {"request": request})
