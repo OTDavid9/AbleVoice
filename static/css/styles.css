@@ -1,3 +1,23 @@
 body {
     background-color: red;
+
+
+    font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
 }
+
+/* .bg-light{
+    background-color: yellow !important;
+} */
+
+.text-body-emphasis{
+    color: #1264BD !important;
+    
+}
+
+#title{
+    background-color: #F7FAFD;
+}
+
