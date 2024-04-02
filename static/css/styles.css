@@ -12,12 +12,52 @@ body {
     background-color: yellow !important;
 } */
 
+.container{
+   color: #26292C;
+
+}
+.navbar-nav {
+    --bs-nav-link-hover-color: #1264BD;
+
+}
+
+
+
 .text-body-emphasis{
     color: #1264BD !important;
+    font-size: 40px;
     
 }
+.fw-bold {
+    font-weight: 500 !important;
+  }
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a2c26;
+    text-align: justify;
+  }
+
+.pe-5 {
+    padding-right: 100px !important;
+  }
 
 #title{
     background-color: #F7FAFD;
 }
 
+.speak-blue{
+    color: #1264BD;
+}
+
+.btn-primary{
+    background-color: hsla(211, 83%, 41%, 0.1);
+    color: #1264BD;
+    font-weight: 700;
+    border-style: none;
+
+}
+.btn-outline-primary{
+font-size: var(--bs-body-font-size);
+}
