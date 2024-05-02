@@ -1,0 +1,95 @@
+html{
+  height: 100vh;
+}
+
+body {
+
+    font-family: "ABeeZee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+/* .bg-light{
+    background-color: yellow !important;
+} */
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #1264BD;
+
+}
+
+
+
+.text-body-emphasis{
+    color: #1264BD !important;
+    font-size: 40px;
+    
+}
+.fw-bold {
+    font-weight: 500 !important;
+  }
+
+.lead {
+    font-size: 20px;
+    font-weight: 400;
+    color: #2a2c26;
+    text-align: justify;
+  }
+
+.pe-5 {
+    padding-right: 100px !important;
+  }
+
+#title{
+    background-color: #F7FAFD;
+    color: #881511 !important;
+}
+
+.speak-blue{
+    color: #1264BD;
+}
+
+.btn-primary{
+    background-color: hsla(211, 83%, 41%, 0.1);
+    color: #1264BD;
+    font-weight: 700;
+    border-style: none;
+
+}
+.btn-outline-primary{
+font-size: var(--bs-body-font-size);
+}
+
+footer{
+  background-color: #26292C;
+  color: white;
+  margin-top: 100%;
+  margin-bottom: 0;
+}
+
+.pcw{
+  text-align: center;
+  font-size: 14px;
+}
+
+.links, .childss, .socials, .contactus{
+  font-size: 14px;
+
+}
+
+/* .footercontainer{
+  display: flex;
+  gap: 100px;
+
+} */
+
+
+/* About Page */
+.mission-vision{
+  background-color: red;
+  color: #2a2c26;
+  margin-top: 100px;
+
+}
